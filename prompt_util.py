@@ -1,4 +1,3 @@
-from prompt_toolkit import prompt
 
 def report_count():
     corpus_tokens = word_tokenize(corpus.lower())
