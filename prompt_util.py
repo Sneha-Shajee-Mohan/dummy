@@ -1,4 +1,6 @@
-
+import nltk
+from nltk.tokenize import word_tokenize
+from nltk.corpus import PlaintextCorpusReader
 def report_count():
     corpus_tokens = word_tokenize(corpus.lower())
     text = nltk.Text(corpus_tokens)
